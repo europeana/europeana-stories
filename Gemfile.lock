@@ -14,7 +14,7 @@ GIT
     europeana-styleguide (0.3.0)
       activesupport (>= 4.0, < 6.0)
       europeana-i18n
-      mustache (~> 1.0.1, < 1.0.4)
+      mustache (~> 1.0.1)
       stache (>= 1.1.1)
 
 GEM
@@ -59,8 +59,8 @@ GEM
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     archive-zip (0.11.0)
       io-like (~> 0.3.0)
     arel (8.0.0)
@@ -280,7 +280,7 @@ GEM
     parser (2.5.0.5)
       ast (~> 2.4.0)
     powerpack (0.1.1)
-    public_suffix (3.0.2)
+    public_suffix (4.0.6)
     puma (3.11.2)
     rack (2.0.6)
     rack-protection (2.0.1)
